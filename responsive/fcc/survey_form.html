@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Survey Form</title>	
+</head>
+<body>
+	<div id="main">
+		<h1 id="title">Survey Form</h1>
+		<p id="description">Lorem ipsum coloer this is tribute info</p>
+
+		<form id="survey-form">
+			<div>
+				<label id="name-label">Name</label>
+				<input required placeholder="type something please" type="name" id="name">
+			</div>
+
+			<div>
+				<label id="email-label">Email</label>
+				<input required placeholder="type something please" type="email" id="email">
+			</div>
+
+			<div>
+				<label id="number-label">Number</label>
+				<input required placeholder="type something please" type="number" id="number" min="5" max="10">
+			</div>
+
+			<div>
+				<label id="">Dropdown</label>
+				<select id="dropdown">
+					<option>option 1</option>
+					<option>option 2</option>
+					<option>option 3</option>
+				</select>
+			</div>
+
+			<div>
+				<p>score</p>
+				<label><input type="radio" name="score" value="100">100</label>
+				<label><input type="radio" name="score" value="200">200</label>
+				<label><input type="radio" name="score" value="300">300</label>
+			</div>
+
+			<div>
+				<p>accomodation</p>
+				<label><input type="checkbox" name="accomodation1" value="100">100</label>
+				<label><input type="checkbox" name="accomodation2" value="200">200</label>
+				<label><input type="checkbox" name="accomodation3" value="300">300</label>
+			</div>
+
+			<div>
+				<label>text-area</label>
+				<textarea></textarea>
+			</div>
+
+			<button id="submit">Submit</button>
+		</form>
+	</div>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
